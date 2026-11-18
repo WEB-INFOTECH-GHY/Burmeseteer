@@ -70,4 +70,29 @@ Route::get('/previous-result', function (Request $request) {
         ->header('Cache-Control', 'no-store, max-age=0');
 });
 
+
+
+
+Route::get('/dream-number', function () {
+    return view('web.dream-number');
+})->name('dream-number');
+
+Route::get('/analytics', function () {
+    return view('web.analytics');
+})->name('analytics');
+
+Route::get('/target-game', function () {
+    return view('web.target-game');
+})->name('target-game');
+
+Route::get('/counter', function () {
+    return view('web.counter');
+})->name('counter');
+
+// Common Number
+Route::get('/common-number', function () {
+    return view('web.common-number');
+})->name('common-number');
+
+
 require __DIR__ . '/admin.php';

@@ -126,13 +126,13 @@
 <header class="site-header">
     <div class="wrap">
         <a class="brand" href="/" aria-label="Burmeseteer home">
-            {{-- <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
                 <circle cx="20" cy="17" r="14" fill="none" stroke="#111" stroke-width="3"/>
                 <circle cx="20" cy="17" r="7" fill="none" stroke="#111" stroke-width="3"/>
                 <path d="M20 8v30" stroke="#111" stroke-width="3"/>
                 <path d="M15 33l5 6 5-6z" fill="#111"/>
-            </svg> --}}
-            <span class="brand-name">Burmeseteer</span>
+            </svg>
+            <span class="brand-name">Burmeseteer.com</span>
         </a>
     </div>
 </header>
@@ -163,7 +163,7 @@
 
     <ul class="tiles">
         <li>
-            <a class="tile t-coral" href="/previous-result">
+            <a class="tile t-coral" href="/common-number">
                 <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="40" fill="none" stroke="#3b3b3b" stroke-width="7"/><text x="50" y="68" text-anchor="middle" font-size="56" font-family="Arial" fill="#3b3b3b">C</text></svg>
                 <span>Common Number</span>
             </a>
@@ -175,19 +175,19 @@
             </a>
         </li>
         <li>
-            <a class="tile t-coral" href="#dream-number">
+            <a class="tile t-coral" href="/dream-number">
                 <svg viewBox="0 0 100 100" aria-hidden="true"><rect x="22" y="28" width="46" height="58" fill="none" stroke="#3b3b3b" stroke-width="5"/><circle cx="45" cy="52" r="9" fill="#3b3b3b"/><path d="M36 64l22 14" stroke="#3b3b3b" stroke-width="8" stroke-linecap="round"/><ellipse cx="82" cy="16" rx="12" ry="8" fill="none" stroke="#3b3b3b" stroke-width="3"/></svg>
                 <span>Dream Number</span>
             </a>
         </li>
         <li>
-            <a class="tile t-blue" href="#analytics">
+            <a class="tile t-blue" href="/analytics">
                 <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 55L50 12A43 43 0 0 1 92 50z" fill="#2b72c4"/><path d="M50 55L92 50A43 43 0 0 1 78 82z" fill="#f08a3c"/><path d="M50 55L78 82A43 43 0 0 1 24 80z" fill="#6cc04a"/><path d="M50 55L24 80A43 43 0 0 1 8 50z" fill="#e8d86b"/><path d="M50 55L8 50A43 43 0 0 1 50 12z" fill="#c2185b"/></svg>
                 <span>Analytics</span>
             </a>
         </li>
         <li>
-            <a class="tile t-brown" href="#predict">
+            <a class="tile t-brown" href="/target-game">
                 <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M5 18h60l12 8-12 8H5z" fill="#f4eee2"/><path d="M5 42h70l10 8-10 8H5z" fill="#f0b94a"/><path d="M95 66H25l-10 8 10 8h70z" fill="#e8e0cc"/><path d="M95 88H35l-10 6" stroke="#f0794a" stroke-width="7" fill="none"/></svg>
                 <span>Predict Target</span>
             </a>
@@ -205,7 +205,7 @@
             </a>
         </li>
         <li>
-            <a class="tile t-light dark" href="#counters">
+            <a class="tile t-light dark" href="/counter">
                 <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="62" cy="55" r="30" fill="#ffe600" stroke="#c9a400" stroke-width="4"/><circle cx="62" cy="55" r="12" fill="none" stroke="#c9a400" stroke-width="3"/><path d="M18 12c-14 20 4 40 22 40s22 25-6 36" fill="none" stroke="#1c8c5e" stroke-width="8" stroke-linecap="round"/></svg>
                 <span>REPUTED COUNTERS</span>
             </a>
